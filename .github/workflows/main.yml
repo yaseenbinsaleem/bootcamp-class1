@@ -34,4 +34,4 @@ jobs:
         run: npm --global surge
         
       - name: deploying using surge
-        run: surge ./yaseenbhai.surge.sh --token $ {{secrets.SURGE_TOKEN}}
+        run: surge ./yaseenbhai.surge.sh --token "53bd8fb8f8b7352f73677d629ed1990a"
